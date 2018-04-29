@@ -1,7 +1,7 @@
 **RomaScraper**
 ===============
 
-This is scraper written in Python 3 was intentended to scrape article sites and download for offline viewing in HTML format. This repository also includes scripts to convert them to .docx files. The main script (roma_scraper.py) can be easily modified to fetch specific content from any site.
+This scraper written in Python 3 was intentended to scrape an article site and download for offline viewing in HTML format. This repository also includes scripts to convert them to .docx files. The main script (roma_scraper.py) can be easily modified to fetch specific content from any site.
 
 There are differences depending which conversion method is used:
 * **Powershell**: Slower to convert, sometimes it seems like it gets stuck, results in a smaller file size since all hrefs (links) to images stay as links in when converted to docx. This also preserves all the CSS formatting and colors so it is more accurate.
